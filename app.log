@@ -1,28 +1,25 @@
-2024-10-07 22:45:15,830 INFO o.s.b.StartupInfoLogger [main] Starting VerveApplication using Java 22.0.2 with PID 13608 (D:\Verve\target\classes started by ADMIN in D:\Verve)
-2024-10-07 22:45:15,841 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
-2024-10-07 22:45:15,843 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-10-07 22:45:17,230 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-10-07 22:45:17,242 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2024-10-07 22:45:17,246 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2024-10-07 22:45:17,247 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
-2024-10-07 22:45:17,295 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2024-10-07 22:45:17,297 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1388 ms
-2024-10-07 22:45:18,219 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
-2024-10-07 22:45:18,281 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2024-10-07 22:45:18,301 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
-2024-10-07 22:45:18,323 INFO o.s.b.StartupInfoLogger [main] Started VerveApplication in 2.881 seconds (process running for 3.917)
-2024-10-07 22:45:32,285 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-07 22:45:32,285 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2024-10-07 22:45:32,286 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
-2024-10-07 22:45:32,326 INFO c.a.V.H.VerveMetricFilter [http-nio-8080-exec-1] id:2
-2024-10-07 22:45:32,381 INFO c.a.V.C.VerveController [http-nio-8080-exec-1] *** Inside the acceptRequest Method***
-2024-10-07 22:45:32,956 INFO c.a.V.S.I.VerveServiceImpl [http-nio-8080-exec-1] Endpoint Response Status: 200 OK
-2024-10-07 22:45:54,985 INFO c.a.V.H.VerveMetricFilter [http-nio-8080-exec-3] id:2
-2024-10-07 22:45:54,988 INFO c.a.V.C.VerveController [http-nio-8080-exec-3] *** Inside the acceptRequest Method***
-2024-10-07 22:45:55,032 INFO c.a.V.S.I.VerveServiceImpl [http-nio-8080-exec-3] Endpoint Response Status: 200 OK
-2024-10-07 22:46:01,003 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:46:01,004 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] 	id: 2 	Count: 2
-2024-10-07 22:46:01,030 INFO o.a.k.c.c.AbstractConfig [scheduling-1] ProducerConfig values: 
+2024-10-07 23:24:59,172 INFO o.s.b.StartupInfoLogger [main] Starting VerveApplication using Java 22.0.2 with PID 20600 (D:\Verve\target\classes started by ADMIN in D:\Verve)
+2024-10-07 23:24:59,185 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-07 23:24:59,189 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-10-07 23:25:00,811 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-10-07 23:25:00,824 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-07 23:25:00,828 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-10-07 23:25:00,829 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-07 23:25:00,881 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-10-07 23:25:00,882 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1607 ms
+2024-10-07 23:25:01,873 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 1 endpoint beneath base path '/actuator'
+2024-10-07 23:25:01,983 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-10-07 23:25:02,005 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-10-07 23:25:02,027 INFO o.s.b.StartupInfoLogger [main] Started VerveApplication in 3.336 seconds (process running for 4.606)
+2024-10-07 23:25:25,527 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-07 23:25:25,528 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-10-07 23:25:25,530 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-10-07 23:25:25,570 INFO c.a.V.H.VerveMetricFilter [http-nio-8080-exec-2] id:2
+2024-10-07 23:25:25,610 INFO c.a.V.C.VerveController [http-nio-8080-exec-2] *** Inside the acceptRequest Method***
+2024-10-07 23:25:26,241 INFO c.a.V.S.I.VerveServiceImpl [http-nio-8080-exec-2] Endpoint Response Status: 200 OK
+2024-10-07 23:26:01,005 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
+2024-10-07 23:26:01,006 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] 	id: 2 	Count: 1
+2024-10-07 23:26:01,044 INFO o.a.k.c.c.AbstractConfig [scheduling-1] ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -114,62 +111,10 @@
 	transactional.id = null
 	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
 
-2024-10-07 22:46:01,064 INFO o.a.k.c.t.i.KafkaMetricsCollector$StateLedger [scheduling-1] initializing Kafka metrics collector
-2024-10-07 22:46:01,076 INFO o.a.k.c.p.KafkaProducer [scheduling-1] [Producer clientId=Verve-producer-1] Instantiated an idempotent producer.
-2024-10-07 22:46:01,126 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka version: 3.7.1
-2024-10-07 22:46:01,126 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka commitId: e2494e6ffb89f828
-2024-10-07 22:46:01,127 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka startTimeMs: 1728321361121
-2024-10-07 22:46:01,531 INFO o.a.k.c.Metadata [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] Cluster ID: G-gCelo0QNqn7fixWmhE_w
-2024-10-07 22:46:01,532 INFO o.a.k.c.p.i.TransactionManager [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] ProducerId set to 3 with epoch 0
-2024-10-07 22:47:01,001 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:48:01,011 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:49:01,010 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:50:01,004 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:51:01,011 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:52:01,000 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:53:01,013 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:54:01,006 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:55:01,000 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:55:01,583 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] Node -1 disconnected.
-2024-10-07 22:56:01,005 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:57:01,011 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:58:01,014 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 22:59:01,013 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:00:00,019 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] TimeMap cleanup
-2024-10-07 23:00:00,057 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
-java.lang.IllegalArgumentException: Cannot format given Object as a Date
-	at java.base/java.text.DateFormat.format(DateFormat.java:346) ~[?:?]
-	at java.base/java.text.Format.format(Format.java:160) ~[?:?]
-	at com.assignment.Verve.Service.Impl.VerveMetricServiceImpl.cleanup(VerveMetricServiceImpl.java:80) ~[classes/:?]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.13.jar:6.1.13]
-	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.13.4.jar:1.13.4]
-	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.1.13.jar:6.1.13]
-	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.1.13.jar:6.1.13]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
-2024-10-07 23:00:01,005 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:01:01,006 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:02:01,013 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:03:01,003 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:04:01,009 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:05:01,007 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:05:01,615 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] Node -1 disconnected.
-2024-10-07 23:06:01,013 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:07:01,002 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:08:01,007 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:09:01,006 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:10:01,004 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:11:01,014 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:12:01,006 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:13:01,009 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:14:01,012 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:15:01,009 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
-2024-10-07 23:16:01,016 INFO c.a.V.S.I.VerveMetricServiceImpl [scheduling-1] Count Of Unique Requests in current minute are :
+2024-10-07 23:26:01,093 INFO o.a.k.c.t.i.KafkaMetricsCollector$StateLedger [scheduling-1] initializing Kafka metrics collector
+2024-10-07 23:26:01,109 INFO o.a.k.c.p.KafkaProducer [scheduling-1] [Producer clientId=Verve-producer-1] Instantiated an idempotent producer.
+2024-10-07 23:26:01,176 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka version: 3.7.1
+2024-10-07 23:26:01,176 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka commitId: e2494e6ffb89f828
+2024-10-07 23:26:01,177 INFO o.a.k.c.u.AppInfoParser$AppInfo [scheduling-1] Kafka startTimeMs: 1728323761171
+2024-10-07 23:26:01,641 INFO o.a.k.c.Metadata [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] Cluster ID: G-gCelo0QNqn7fixWmhE_w
+2024-10-07 23:26:01,642 INFO o.a.k.c.p.i.TransactionManager [kafka-producer-network-thread | Verve-producer-1] [Producer clientId=Verve-producer-1] ProducerId set to 4 with epoch 0
